@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# * LIVECOMMENT DESCRIPTION FOR .sh example *[
+
+# This is livecomment-cli tool!
+# run:
+# $ livecomment-cli add-dir . default --enable-client-sidescripts
+# $ livecomment-cli run .
+
+# Usage samples [
+
+#$ livecomment-cli install youtube-player
+#$ livecomment-cli groupinstall browser-players
+#$ livecomment-cli add-dir /path/to/livecomment-sources --enable-server-scripts --enable-client-scripts [alias]
+#$ livecomment-cli remove-dir <alias|path>
+#$ livecomment-cli start <alias|path>
+#$ livecomment-cli stop <alias|path>
+
+# Usage samples ]
+
+# * LIVECOMMENT DESCRIPTION FOR .sh example *]
+
+# JOKE [
+
+echo "Hackaton: You're hacked! See inside bin/livecomment-cli"
+
+# JOKE ]
+
+exit 1
