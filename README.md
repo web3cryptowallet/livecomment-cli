@@ -7,6 +7,24 @@ What is [LiveComment](https://www.npmjs.com/package/livecomment)?
 # livecomment-cli
 LiveComment cli tools
 
+### System requirements
+
+- bash (Linux shell, Mac, Windows)
+
+### Install Script
+
+To **install** LiveComment, you should run the livecomment-cli script. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
+```sh
+curl -o- https://raw.githubusercontent.com/web3cryptowallet/livecomment-cli/master/bin/livecomment-cli.sh | bash
+```
+```sh
+wget -qO- https://raw.githubusercontent.com/web3cryptowallet/livecomment-cli/master/bin/livecomment-cli.sh | bash
+```
+
+Running either of the above commands downloads a script and runs it. The script installs and configure bootstrap components if needed:
+
+- nvm.sh
+- node v12.16.2
 
 ## Directory structure
 
